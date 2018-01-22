@@ -1,0 +1,24 @@
+mkdir=make directory
+cd=change directory
+pwd=print working directory
+
+to print a name
+print("name")
+
+idel types
+1.shell window
+2.editor window
+
+similar to perform all the arithmatic functoins in shell window
+to add two numbers
+a=
+b=
+c=a+b
+
+similar to perform all the arithmatic functions in editor window
+a=int(input("enter a value"))
+b=int(input("enter b value"))
+c=a+b
+print(c)
+
+in editor window we should define everything
