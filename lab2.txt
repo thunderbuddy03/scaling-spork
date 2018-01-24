@@ -1,0 +1,95 @@
+>>> python promt
+// double float
+ex: 24//24=1
+** exponent
+ex: 3**2=9
+% module
+ex:5%2=2
+casting:-converting one datatype to another, to perform calculation. 2 types
+implicit:- computer itself will convert
+explicit:- we convert it.
+
+standard input funtion=input
+standard output function=print
+
+
+
+conditional statements
+1. if statement
+          syntax:
+                 if condition:
+                              statements
+   example;
+           a=int(input("input the number to check if positive or negative"))
+           if a>0:
+           print(a,"is positive number")
+
+           if a<0: 
+           print(a,"is negative number")
+output:
+	input the number to check if positive or negative-4
+	-4 is negative number
+		
+
+2. if else statement
+	syntax:
+		if condition:
+			statements
+		else:
+			statements
+example:
+	a=int(input("input the number to check if positive or negative"))
+	if a>0:
+ 	print(a,"is positive number")
+	else:
+     	print(a,"is negative number")
+output:
+	input the number to check if positive or negative6
+	6 is positive number
+
+3. if else ladder
+	syntax:
+		if condition1:
+			statements
+		elif condition2:
+			statements
+		elif conditionN:
+			statementN
+		else:
+example:
+a=int(input("percentage of student="))
+if a>90:
+    print("student grade is A")
+elif a>80:
+    print("student grade is B")
+elif a>75:
+    print("student grade is C")
+elif a>50:
+    print("stdent grade is D")
+elif a>40:
+    print("student grade is E")
+else :
+
+output:
+percentage of student=6
+student fail
+
+4.loop statement
+   A.while
+	syntax:
+		while(condition):
+			statements
+			updates
+
+example: i=0
+	 while(i<=5):
+		print(1)
+		i=i+1
+output
+0
+1
+1
+2
+
+
+
