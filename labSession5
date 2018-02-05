@@ -1,0 +1,92 @@
+ASSIGNMENT OPERATOR
+
+
+1. MULTIPLE ASSIGNMENT
+
+	a,b,c=5,10,15
+	print ("\n",a,"\n",b,"\n",c)
+
+	OUTPUT:
+	 5 
+	 10 
+	 15
+
+LISTS
+
+format:[1,2,3,4,5]
+Example:
+	b=5
+	a=[10,20,"hi",100.99,[68,55,99],b]
+	print(a[0])
+	print(a[2])
+	print(a[2][1])
+	print(a[4][2])
+	print(a[5])
+
+output:
+	10
+	hi
+	i
+	99
+	5
+
+
+RANGE OF A LIST
+
+1.) print (list(range(0,100,+5)))
+
+OUTPUT:
+
+[0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95]
+
+
+2.) l=[5,45,67]
+    print(l[0:2])
+
+	OUTPUT:
+	[5, 45]
+
+3.)
+my_list=[10,20,30,40,50]
+print (my_list[0])
+my_list[0]=100
+print (my_list[0])
+
+output:
+10
+100
+
+
+TUPLE
+
+my_tuple=(10,20,30,40,50)
+print (my_tuple[0])
+my_tuple[0]=100
+print (my_tuple[0])
+
+
+OUTPUT:
+
+10
+Traceback (most recent call last):
+  File "/home/cs2017a201/nischay13/lab5_List.py", line 3, in <module>
+    my_tuple[0]=100
+TypeError: 'tuple' object does not support item assignment
+
+
+
+DICTIONARY:
+
+dic={"name":"nis","age":19,"marks":100}
+print (dic["name"])
+print (dic["age"])
+print (dic.get("marks"))
+       
+example:
+
+nis
+19
+100
+
+
+
