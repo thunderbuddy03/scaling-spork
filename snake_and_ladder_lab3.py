@@ -3,10 +3,10 @@ import random
 
 #assuming ctr as 0
 ctr=0
-print("WELCOME!!LET'S BEGIN THE GAME OF SNAKE AND LADDER")
+print("WELCOME!!LET'S PLAY THE GAME OF SNAKE AND LADDER")
 print("YOUR CURRENT POSITION IS ",ctr)
 #while condition repeating the set of statements assuming ctr=0 till it reaches 100
-while(ctr<=100):
+while(ctr<100):
     r=random.randint(1,6)
     j=input("PRESS ENTER TO ROLL THE DICE")
     ctr=ctr+r
@@ -56,5 +56,7 @@ while(ctr<=100):
         ctr=64
         print("SNAKE BIT YOU..:( MOVE DOWN TO 64")
         #elif condition ctr moves to 100 game over.
-    elif ctr<=100:
+    elif ctr>100:
+            ctr=ctr-r
+    elif ctr>=100:
         print("You won")
